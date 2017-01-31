@@ -11,6 +11,7 @@
 * [Development documentation](#development)
 
 ## <a name="overview"/> Overview
+
 This IoT Agent is designed to be a bridge between the Enschede Parking Service and the OMA NGSI standard used in FIWARE.
 This project is based in the Node.js IoT Agent library. More information about the IoT Agents can be found in its 
 [Github page](https://github.com/telefonicaid/iotagent-node-lib).
@@ -25,6 +26,8 @@ to the JSON IoTAgent.
 If you want to contribute to the project, check out the [Development section](#development) and the [Contribution guidelines](./docs/contribution.md).
 
 Additional information about operating the component can be found in the [Operations: logs and alarms](docs/operations.md) document.
+
+THIS PROJECT  IS COPIED FROM iotagent-json. The documentation is NOT YET UP-TO-DATE!
 
 ## <a name="installation"/> Installation
 There are two ways of installing the JSON IoT Agent: using Git or RPMs.

@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+'use strict';
+
+var iotAgent = require('../lib/iotagent-eps'),
+    info = require('../package.json'),
+    context = {
+        op: 'IOTAEPS.Executable'
+    },
+    logger = require('logops');
+
+function start() {
+    var config;
+
+    if (process.argv.length === 3) {
+        config = require('../' + process.argv[2]);
+    } else {
+        config = require('../config');
+    }
+
+    config.iota.iotaVersion = info.version;
+
+    iotAgent.start(config, function (error) {
+        if (error) {
+            logger.error(context, 'Error starting EPS IoT Agent: [%s] Exiting process', error);
+        } else {
+            logger.info(context, 'EPS IoT Agent started');
+        }
+    });
+}
+
+start();

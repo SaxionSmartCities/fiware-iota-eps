@@ -5,8 +5,11 @@ config.iota = {
     logLevel: 'INFO',
     timestamp: false,
     contextBroker: {
-        host: '178.21.117.113',
-        port: '1026'
+        // host: '178.21.117.113',
+        // port: '1026'
+        host: 'orion.smartenschede.nl',
+        port: '80',
+        secure: false
     },
     server: {
         port: 4041
@@ -25,21 +28,17 @@ config.iota = {
             // ],
             attributes: [
                 {
-                    'object_id': 'username',
-                    'name': 'name',
-                    'type': 'Text'
-                },
-                {
-                    'object_id': 'filetimestamp',
+                    'object_id': 'lastUpdated',
                     'name': 'dateModified',
                     'type': 'DateTime'
                 },
                 {
-                    'object_id': 'capacityshort',
+                    'object_id': 'parkingCapacity',
                     'name': 'totalSpotNumber',
                     'type': 'Integer'
                 },
                 {
+                    'object_id': 'vacantSpaces',
                     'name': 'availableSpotNumber',
                     'type': 'Integer'
                 }

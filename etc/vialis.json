@@ -1,0 +1,43 @@
+{
+   "baseUrl" : {
+     "twente" : "http://opd.it-t.nl/data/parkingdata/v1/twente/dynamic/"
+   },
+   "garages": [
+     {
+       "id": "Enschede-P",
+       "filename": "Enschede P Mooienhof.json",
+       "url": "twente"
+     },
+     {
+       "id": "Enschede-P1",
+       "filename": "Enschede P1 van Heek .json",
+       "url": "twente"
+     },
+     {
+       "id": "Enschede-P2",
+       "filename": "Enschede P2 Stationsplein.json",
+       "url": "twente"
+     },
+     {
+       "id": "Enschede-P3",
+       "filename": "Enschede P3 Irene.json",
+       "url": "twente"
+     },
+     {
+       "id": "Enschede-P4",
+       "filename": "Enschede P4 Q-park Enschede.json",
+       "url": "twente"
+     },
+     {
+       "id": "Enschede-P5",
+       "filename": "Enschede P5 Hermandad.json",
+       "url": "twente"
+     },
+     {
+       "id": "Enschede-P6",
+       "filename": "Enschede P R Zuiderval.json",
+       "url": "twente"
+     }
+
+   ]
+}

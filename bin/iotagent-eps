@@ -19,12 +19,26 @@ function start() {
 
     config.iota.iotaVersion = info.version;
 
-    iotAgent.start(config, function (error) {
+    iotAgent.start(config, function startCallback(error) {
+        // if (error) {
+        //     logger.error(context, 'Error starting EPS IoT Agent: [%s] Exiting process', error);
+        // } else {
+        //     logger.info(context, 'EPS IoT Agent started');
+        // }
         if (error) {
-            logger.error(context, 'Error starting EPS IoT Agent: [%s] Exiting process', error);
+            logger.error(context, 'Error starting IoT Agent: [%s] Exiting process', error);
         } else {
-            logger.info(context, 'EPS IoT Agent started');
+            logger.info(context, 'IoT Agent Work Finished');
         }
+        iotAgent.stop(function stopCallback(stoperror) {
+            if (stoperror) {
+                logger.error(context, 'Error stopping IoT Agent: [%s] Exiting process', stoperror);
+                process.exit(1);
+            } else {
+                logger.info(context, 'IoT Agent Stopped');
+                process.exit(0);
+            }
+        });
     });
 }
 

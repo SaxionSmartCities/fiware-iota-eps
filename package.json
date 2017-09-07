@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@gitlab.com:vidinexus/iotagent-eps.git"
   },
   "bugs": {
     "url": ""

@@ -5,37 +5,38 @@
    "garages": [
      {
        "id": "Enschede-P",
-       "filename": "Enschede P Mooienhof.json",
+       "filename": "480c50ad-2ef0-48df-8dbc-d2c8552151fd.json",
        "url": "twente"
      },
      {
        "id": "Enschede-P1",
-       "filename": "Enschede P1 van Heek .json",
+       "filename": "1a39c8e9-91f9-40d9-bdf3-ce1f6e438a14.json",
        "url": "twente"
      },
      {
        "id": "Enschede-P2",
-       "filename": "Enschede P2 Stationsplein.json",
+       "filename": "476e6006-08fa-4ad8-8e03-3fa478e0d914.json",
        "url": "twente"
      },
      {
        "id": "Enschede-P3",
-       "filename": "Enschede P3 Irene.json",
+       "filename": "824a6cd5-acd4-4d88-893e-d38aa1fc5116.json",
        "url": "twente"
      },
-     {
-       "id": "Enschede-P4",
-       "filename": "Enschede P4 Q-park Enschede.json",
-       "url": "twente"
-     },
+     // Q-Park doet niet meer mee
+//     {
+//       "id": "Enschede-P4",
+//       "filename": "Enschede P4 Q-park Enschede.json",
+//       "url": "twente"
+//     },
      {
        "id": "Enschede-P5",
-       "filename": "Enschede P5 Hermandad.json",
+       "filename": "1a193871-2922-4702-9f6b-03746c586c03.json",
        "url": "twente"
      },
      {
        "id": "Enschede-P6",
-       "filename": "Enschede P R Zuiderval.json",
+       "filename": "twente_900000006.json",
        "url": "twente"
      }
 

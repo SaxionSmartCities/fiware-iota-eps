@@ -23,12 +23,13 @@
        "filename": "824a6cd5-acd4-4d88-893e-d38aa1fc5116.json",
        "url": "twente"
      },
-     // Q-Park doet niet meer mee
-//     {
-//       "id": "Enschede-P4",
-//       "filename": "Enschede P4 Q-park Enschede.json",
-//       "url": "twente"
-//     },
+     {
+       "comment": "Q-Park doet niet meer mee",
+       "id": "Enschede-P4",
+       "filename": "Enschede P4 Q-park Enschede.json",
+       "url": "twente",
+       "ignore": true
+     },
      {
        "id": "Enschede-P5",
        "filename": "1a193871-2922-4702-9f6b-03746c586c03.json",

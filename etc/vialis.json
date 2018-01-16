@@ -24,11 +24,11 @@
        "url": "twente"
      },
      {
-       "comment": "Q-Park doet niet meer mee",
+       "comment": "Q-Park doet weer mee (gezien 2018-01-16)",
        "id": "Enschede-P4",
-       "filename": "Enschede P4 Q-park Enschede.json",
+       "filename": "84c88d2a-8663-459a-856e-b73c7ab17ef4.json",
        "url": "twente",
-       "ignore": true
+       "ignore": false
      },
      {
        "id": "Enschede-P5",

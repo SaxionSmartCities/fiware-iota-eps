@@ -1,0 +1,45 @@
+#!/usr/bin/env node
+'use strict';
+
+var iotAgent = require('../lib/iotagent-eps'),
+    info = require('../package.json'),
+    context = {
+        op: 'IOTAEPS.Executable'
+    },
+    logger = require('logops');
+
+function start() {
+    var config;
+
+    if (process.argv.length === 3) {
+        config = require('../' + process.argv[2]);
+    } else {
+        config = require('../config');
+    }
+
+    config.iota.iotaVersion = info.version;
+
+    iotAgent.start(config, function startCallback(error) {
+        // if (error) {
+        //     logger.error(context, 'Error starting EPS IoT Agent: [%s] Exiting process', error);
+        // } else {
+        //     logger.info(context, 'EPS IoT Agent started');
+        // }
+        if (error) {
+            logger.error(context, 'Error starting IoT Agent: [%s] Exiting process', error);
+        } else {
+            logger.info(context, 'IoT Agent Work Finished');
+        }
+        iotAgent.stop(function stopCallback(stoperror) {
+            if (stoperror) {
+                logger.error(context, 'Error stopping IoT Agent: [%s] Exiting process', stoperror);
+                process.exit(1);
+            } else {
+                logger.info(context, 'IoT Agent Stopped');
+                process.exit(0);
+            }
+        });
+    });
+}
+
+start();

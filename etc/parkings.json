@@ -1,0 +1,357 @@
+{
+  "entities": [
+    {
+      "id": "Enschede-P",
+      "type": "OffStreetParking",
+      "name": {
+        "type": "Text",
+        "value": "Parkeergarage Mooienhof"
+      },
+      "description": {
+        "type": "Text",
+        "value": "Parkeergarage Mooienhof"
+      },
+      "category": {
+        "type": "ListOfText",
+        "value": [
+          "parkingGarage",
+          "underground",
+          "public",
+          "feeCharged",
+          "mediumTerm",
+          "barrierAccess"
+        ]
+      },
+      "layout": {
+        "type": "ListOfText",
+        "value": [
+          "multiLevel"
+        ]
+      },
+      "maximumParkingDuration": {
+        "type": "Text",
+        "value": "PT24H"
+      },
+      "location": {
+        "type": "geo:json",
+        "value": {
+          "coordinates": [
+            52.216370,
+            6.897962
+          ],
+          "type": "Point"
+        }
+      },
+      "address": {
+        "type": "Address",
+        "value": {
+          "streetAddress": "Ledeboerterrein 34",
+          "addressLocality": "Enschede",
+          "postalCode": "7511"
+        }
+      }
+    },
+    {
+      "id": "Enschede-P1",
+      "type": "OffStreetParking",
+      "name": {
+        "type": "Text",
+        "value": "P1 Van Heek"
+      },
+      "description": {
+        "type": "Text",
+        "value": "Parkeergarage onder het H.J. van Heekplein"
+      },
+      "category": {
+        "type": "ListOfText",
+        "value": [
+          "parkingGarage",
+          "underground",
+          "public",
+          "feeCharged",
+          "mediumTerm",
+          "barrierAccess"
+        ]
+      },
+      "layout": {
+        "type": "ListOfText",
+        "value": [
+          "multiLevel"
+        ]
+      },
+      "maximumParkingDuration": {
+        "type": "Text",
+        "value": "PT24H"
+      },
+      "location": {
+        "type": "geo:json",
+        "value": {
+          "coordinates": [
+            52.217144,
+            6.898072
+          ],
+          "type": "Point"
+        }
+      },
+      "address": {
+        "type": "Address",
+        "value": {
+          "streetAddress": "Boulevard 1945 nr 105",
+          "addressLocality": "Enschede",
+          "postalCode": "7511 AM"
+        }
+      }
+    },
+    {
+      "id": "Enschede-P2",
+      "type": "OffStreetParking",
+      "name": {
+        "type": "Text",
+        "value": "P2 Stationsplein"
+      },
+      "description": {
+        "type": "Text",
+        "value": "Parkeergarage bij het NS station"
+      },
+      "category": {
+        "type": "ListOfText",
+        "value": [
+          "parkingGarage",
+          "public",
+          "feeCharged",
+          "mediumTerm",
+          "barrierAccess"
+        ]
+      },
+      "layout": {
+        "type": "ListOfText",
+        "value": [
+          "multiLevel"
+        ]
+      },
+      "maximumParkingDuration": {
+        "type": "Text",
+        "value": "PT24H"
+      },
+      "location": {
+        "type": "geo:json",
+        "value": {
+          "coordinates": [
+            52.221723,
+            6.892316
+          ],
+          "type": "Point"
+        }
+      },
+      "address": {
+        "type": "Address",
+        "value": {
+          "streetAddress": "Stationsplein 6",
+          "addressLocality": "Enschede",
+          "postalCode": "7511 JD"
+        }
+      }
+    },
+    {
+      "id": "Enschede-P3",
+      "type": "OffStreetParking",
+      "name": {
+        "type": "Text",
+        "value": "P3 Irene"
+      },
+      "description": {
+        "type": "Text",
+        "value": "Parkeergarage nabij het Wilminktheather"
+      },
+      "category": {
+        "type": "ListOfText",
+        "value": [
+          "parkingGarage",
+          "public",
+          "feeCharged",
+          "mediumTerm",
+          "barrierAccess"
+        ]
+      },
+      "layout": {
+        "type": "ListOfText",
+        "value": [
+          "multiLevel"
+        ]
+      },
+      "maximumParkingDuration": {
+        "type": "Text",
+        "value": "PT24H"
+      },
+      "location": {
+        "type": "geo:json",
+        "value": {
+          "coordinates": [
+            52.222361,
+            6.898219
+          ],
+          "type": "Point"
+        }
+      },
+      "address": {
+        "type": "Address",
+        "value": {
+          "streetAddress": "Van Lochemstraat 91",
+          "addressLocality": "Enschede",
+          "postalCode": "7511 EG"
+        }
+      }
+    },
+    {
+      "id": "Enschede-P4",
+      "type": "OffStreetParking",
+      "name": {
+        "type": "Text",
+        "value": "P4 Q-park"
+      },
+      "description": {
+        "type": "Text",
+        "value": "Parkeergarage bij winkelcentrum Zuidmolen en de bibliotheek"
+      },
+      "category": {
+        "type": "ListOfText",
+        "value": [
+          "parkingGarage",
+          "public",
+          "feeCharged",
+          "mediumTerm",
+          "barrierAccess"
+        ]
+      },
+      "layout": {
+        "type": "ListOfText",
+        "value": [
+          "multiLevel"
+        ]
+      },
+      "maximumParkingDuration": {
+        "type": "Text",
+        "value": "PT24H"
+      },
+      "location": {
+        "type": "geo:json",
+        "value": {
+          "coordinates": [
+            52.218925,
+            6.892128
+          ],
+          "type": "Point"
+        }
+      },
+      "address": {
+        "type": "Address",
+        "value": {
+          "streetAddress": "Van Loenshof 62",
+          "addressLocality": "Enschede",
+          "postalCode": "7511 NJ"
+        }
+      }
+    },
+    {
+      "id": "Enschede-P5",
+      "type": "OffStreetParking",
+      "name": {
+        "type": "Text",
+        "value": "P5 Hermandad"
+      },
+      "description": {
+        "type": "Text",
+        "value": "Parkeergarage bij het politiebureau, MST Ziekenhuis en Saxion Hogeschool"
+      },
+      "category": {
+        "type": "ListOfText",
+        "value": [
+          "parkingGarage",
+          "public",
+          "feeCharged",
+          "mediumTerm",
+          "barrierAccess"
+        ]
+      },
+      "layout": {
+        "type": "ListOfText",
+        "value": [
+          "multiLevel"
+        ]
+      },
+      "maximumParkingDuration": {
+        "type": "Text",
+        "value": "PT24H"
+      },
+      "location": {
+        "type": "geo:json",
+        "value": {
+          "coordinates": [
+            52.219122,
+            6.890465
+          ],
+          "type": "Point"
+        }
+      },
+      "address": {
+        "type": "Address",
+        "value": {
+          "streetAddress": "Nijverheidstraat 30",
+          "addressLocality": "Enschede",
+          "postalCode": "7511 JM"
+        }
+      }
+    },
+    {
+      "id": "Enschede-P6",
+      "type": "OffStreetParking",
+      "name": {
+        "type": "Text",
+        "value": "P6 P+R Zuiderval"
+      },
+      "description": {
+        "type": "Text",
+        "value": "P+R transferium parkeergarage nabij de A35. U kunt hier goedkoop parkeren en met het openbaar vervoer gratis verder reizen naar het centrum van Enschede. "
+      },
+      "category": {
+        "type": "ListOfText",
+        "value": [
+          "parkingGarage",
+          "public",
+          "feeCharged",
+          "mediumTerm",
+          "barrierAccess"
+        ]
+      },
+      "layout": {
+        "type": "ListOfText",
+        "value": [
+          "multiLevel"
+        ]
+      },
+      "maximumParkingDuration": {
+        "type": "Text",
+        "value": "PT24H"
+      },
+      "location": {
+        "type": "geo:json",
+        "value": {
+          "coordinates": [
+            52.204017,
+            6.890745
+          ],
+          "type": "Point"
+        }
+      },
+      "address": {
+        "type": "Address",
+        "value": {
+          "streetAddress": "Spaansland 20",
+          "addressLocality": "Enschede",
+          "postalCode": "7543 BG"
+        }
+      }
+    }
+  ]
+}
+

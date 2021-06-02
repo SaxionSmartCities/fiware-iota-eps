@@ -15,7 +15,7 @@ This project communicates directly with the Orion context broker.
 ## <a name="installation"/> Installation
 In order to install the TT Agent, just clone the project and install the dependencies:
 ```
-git clone https://github.com/vidinexus/iotagent-eps.git
+git clone https://github.com/SaxionSmartCities/fiware-iota-eps.git
 npm install
 ```
 In order to start the IoT Agent, from the root folder of the project, type:
